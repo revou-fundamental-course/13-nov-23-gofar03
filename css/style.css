@@ -22,6 +22,7 @@
 }
 
 .title-header {
+    background-color: azure;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -68,4 +69,10 @@ button {
 
 #article-section {
     font-family: Arial, Helvetica, sans-serif;
+}
+
+@media screen and(max-widht: 600px) {
+    .title-header {
+        background-color: teal;
+    }
 }
